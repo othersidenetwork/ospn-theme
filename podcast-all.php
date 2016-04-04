@@ -7,7 +7,7 @@ get_header();
 ?>
 <div class="full-width">
     <div id="primary" class="content-area">
-        <main id="main" class="site-main" role="main">
+        <main id="main" class="site-main podcasts-column" role="main">
             <?php while ($ospn->have_podcasts()) : $podcast = $ospn->the_podcast(); ?>
             <div class="podcast-box">
                 <a href="<?php $podcast->the_permalink(); ?>" class="click-zone"></a>
