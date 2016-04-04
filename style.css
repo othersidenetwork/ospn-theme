@@ -1,0 +1,181 @@
+/*
+ Theme Name:   OSPN theme
+ Theme URI:    http://otherside.network/theme
+ Description:  OSPN theme
+ Author:       OSPN web team
+ Author URI:   http://otherside.network
+ Template:     first
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  ospn-theme
+*/
+
+
+.podcast-box {
+    box-sizing: border-box;
+    width: 290px;
+    padding: 20px;
+    border: 1px solid black;
+    vertical-align: top;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    position: relative;
+    background-color: #EEEEEE;
+}
+
+.podcast-box:hover {
+    background-color: #DDDDDD;
+}
+
+.podcast-box .click-zone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 10;
+}
+
+.podcast-box:first-child {
+    margin-left: 0;
+}
+
+.podcast-logo img {
+    width: 250px;
+    height: 250px;
+}
+
+.podcast-name {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article.hosts section.bio aside {
+    float: right;
+    margin-left: 20px;
+}
+
+article.hosts section.host-small {
+    position: relative;
+}
+
+article.hosts section.host-small aside {
+    float: left;
+    margin-right: 20px;
+}
+
+article.hosts section.host-small a.click-zone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+section.socials a {
+    display: inline-block;
+    width: 30px;
+    height:30px;
+    margin-right: 10px;
+    background-size: contain;
+}
+
+section.socials a.twitter {
+    background-image: url('socials/twitter.png');
+}
+
+section.socials a.facebook {
+    background-image: url('socials/facebook.png');
+}
+
+section.socials a.googleplus {
+    background-image: url('socials/googleplus.png');
+}
+
+section.socials a.diaspora {
+    background-image: url('socials/diaspora.png');
+}
+
+section.socials a.gnusocial {
+    background-image: url('socials/gnusocial.png');
+}
+
+section.socials {
+    margin-bottom: 10px;
+}
+
+.podcasts-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+:target {
+    background-color: #EEEEEE;
+}
+
+article.host,
+article.podcast {
+    padding: 20px;
+    border-bottom: 3px solid black;
+}
+
+article.host:last-child,
+article.podcast:last-child {
+    border-bottom: 0;
+}
+
+article.host aside,
+article.podcast aside {
+    float: right;
+    margin-left: 20px;
+}
+
+article.host .description,
+article.podcast .description {
+    clear: both;
+    padding: 2em 0 2em 0;
+    text-align: justify;
+}
+
+article.host section.podcasts > h3,
+article.podcast section.hosts > h3 {
+    padding-bottom: 10px;
+}
+
+article.host section.podcasts img,
+article.podcast section.hosts img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+article.host *,
+article.podcast * {
+    clear: none;
+    margin: 0;
+}
+
+article.host section.socials,
+article.podcast section.socials {
+    margin-top: 10px;
+}
+
+.current-menu-item { background-color: #cc0000; }
+
+img.avatar,
+.avatar img {
+    border-radius: 5%;
+}
+
+img.podcast-logo,
+.podcast-logo img {
+    border-radius: 5%;
+}
